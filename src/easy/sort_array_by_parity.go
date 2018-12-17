@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package easy
 
 // https://leetcode.com/problems/sort-array-by-parity/
 
@@ -17,10 +15,4 @@ func sortArrayByParity(A []int) []int {
 	}
 	evenArray = append(evenArray, oddArray...)
 	return evenArray
-}
-
-func main() {
-	input := []int{3, 1, 2, 4}
-	result := sortArrayByParity(input)
-	fmt.Println(result)
 }

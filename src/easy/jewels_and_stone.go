@@ -1,4 +1,4 @@
-package main
+package easy
 
 // https://leetcode.com/problems/jewels-and-stones/
 
@@ -10,7 +10,7 @@ func numJewelsInStones(J string, S string) int {
 	}
 
 	for _, s := range S {
-		if _,ok := jDict[s]; ok {
+		if _, ok := jDict[s]; ok {
 			ret++
 		}
 	}
