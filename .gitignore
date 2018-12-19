@@ -13,6 +13,6 @@
 
 # VScode
 .vscode/
-
+**/debug.test
 # Golang build
 pkg/
