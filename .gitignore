@@ -13,3 +13,6 @@
 
 # VScode
 .vscode/
+
+# Golang build
+pkg/
