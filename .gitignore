@@ -13,6 +13,9 @@
 
 # VScode
 .vscode/
+# Idea
+.idea/
+
 **/debug.test
 # Golang build
 pkg/
